@@ -1,0 +1,29 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+    <script src="../p5.min.js"></script>
+    <script src="../addons/p5.dom.min.js"></script>
+    <script src="../addons/p5.sound.min.js"></script>
+    <script src="sketch.js"></script>
+    <style> body {padding: 0; margin: 0;} </style>
+  </head>
+  <body>
+  </body>
+</html>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ function setup()  {
+   createCanvas(400,400);
+ }
+
+ function draw() {
+      background(50,100);
+      fill (10,100,200);
+      ellipse(mouseX,mouseY,50,50);
+      console.log("Check,Check");
+ }
